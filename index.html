@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- This is our HTML document, which is the 'skeleton' of our webpage. -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- this link below refers to the CSS document we are using to style this webpage-->
+<link rel="stylesheet" href="style.css">
+
+
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+     <!--Title of the page-->
+     <title >Stephen Omogbehin - CV</title>
+   
+              
+
+
+</head>
+
+<body>
+
+    <div id="page-wrap">
+<!--Insert a picture of yourself where it says 'images/me.jpg. the "me" portion is the filename and the "images/" is the folder name it lives in.
+    the images/ is important as in our S3 bucket we are keeping the images in a separate folder (called images)'-->
+        <img class="mypicture" src="images/Mypicture.jpg" alt="Mypicture" width = "210" height = "210" id="pic" />
+
+        
+
+    
+    
+        <div id="contact-info" class="vcard">
+        
+        
+        <!-- This is the main title, call it 'my cv'-->
+            <h1 class="fn">Stephen Omogbehin's CV</h1>
+        
+            <p>
+                <!--Obviously edit this information-->
+                Mobile Number: <span class="tel">09056198020</span><br />
+                Email: <a href="mailto:omogbehinsteven@gmail.com">omogbehinsteven@gmail.com</a></br>
+                LinkedIn: <a href="https://www.linkedin.com/in/omogbehin-stephen-97411781">www.linkedin.com/in/omogbehin-stephen-97411781</a></br>
+                Github: <a href="https://github.com/Ajiwola">https://github.com/Ajiwola</a>
+            </p>
+            
+        </div>
+                
+        <div id="objective">
+            <!-- this is an intro message - so add an overview of yourself, and some links to any socials you have etc-->
+            <!-- to edit the link, simply replace the link with the link you desire. target = blank means it opens in a new tab when you click it, so to replace the test the user clicks, edit the text after "blank"-->
+            <p>
+                I am an IT enthusiast, with a track record of resolving problems related to hardware, operating system,
+                 and networking. I am currently training to become a fully-certified Cloud Solution Architect. I posses with vast knowledge of cloud computing ranging
+                 from billing, monitoring, continous integration and continous deployment, security, orchestration and architectural framework with the use 
+                 of cloud services from various vendors such as AWS, Azure and Google. I love learning about new technology, reading, playing football, listening to music. 
+                 I also have working experience spanning over 6 years in network monitoring and root cause analysis, event and incident management, IT service management, and service delivery in the Telecom industry.
+            </p>
+        </div>
+        
+        
+        <dl>
+            <dd class="clear"></dd>
+            <dd>
+            <dt>Projects</dt>
+            <!--simply add any projects or task carried out by self or a team-->
+            <p></p>I deployed a static website using Amazon Simple Storage Service(S3).
+              On AWS S3, I was able to create a bucket, add bucket policy for read access on the resources uploaded,
+            allow public access on the bucket, and enabled Server side encryption to protect data at rest.</p>
+            
+        </dd>
+
+        <dd class="clear"></dd>
+        
+            <dt>Education & Certifications</dt>
+            <dd>
+                <h2>Certifications</h2>
+               <!--simply add any certs you have here-->
+                   <strong>AWS Solutions Architect Associate: </strong>In View</p>
+                   <strong>Google Cloud Engineer: </strong>In View</p>
+                   <strong>Microsoft Security, Compliance, and Identity Fundamentals: </strong>In View</p>
+                   <strong>Microsoft Power Platform Fundamentals: </strong>In View</p>
+                   <strong>AWS Cloud Practitioner: </strong>January 2022</p>
+                   <strong>Azure Fundamentals: </strong>February 2022</p>
+                   
+            </dd>
+            <dd>
+                <h2>Education</h2>
+                <!--add your education here-->
+               
+                   <strong>B.Tech  Pure and Applied Physics: </strong>Ladoke Akintola University of Technology November 2012</p>
+                
+            </dd>
+            <dd class="clear"></dd>
+
+            <dt >Experience</dt>
+            <dd>
+                <!--This is our experience section.  the 'li' tag enclosed in the 'ul' tag is a bullet pointed list in which you can detail your achievements.-->
+                <h2>Information Technology Analyst                      <span>IHS Towers - Oct 2021 - Present</span></h2>
+                <ul>
+                    <li>I provide IT technical support to the Network Operations Centre (NOC) and physical Security Operations Centre (PSOC) for all hardware, 
+                        systems, or service-related incidents and requests</li>
+                    <li>Running diagnostic programs or tools for root cause determination and problem resolution.
+                        </li>
+                    <li>Performing proactive performance and availability monitoring of IT systems, applications, tools, 
+                        and services required to provide services to end-users.</li>
+                    <li>Effective monitoring of IT datacenter using monitoring tools and applications like PRTG.</li>
+                        <li>Use of Monitoring Tools & Applications, e.g. PRTG, Citrix, Netnumen.
+                        </li>
+                </ul>
+                <!-- each different job role is separated by a new 'h2' tag-->
+                <h2>Analyst Network Surveillance                      <span>IHS Towers - Jan 2020 - September 2021</span></h2>
+                <ul>
+                    <li>I ensured real-time incident management (passive/active) of the entire cell network using Networking Monitoring System (NMS) and Remote MonitoringSystem (RMS).</li>
+                    <li>I participated in the monitoring of the overall efficiency of the network and troubleshooting passive-related issues using AIO system.</li>
+                    <li>I logged, escalated, and followed up with network events triggered on the network monitoring tool using Mi-c3 Affectli. 
+                    </li>
+                    <li>I carried out network management reporting using Mi-c3 Affectli Analytics.</li>
+                    <li>I ensured full compliance with the NOC Standard Operation Procedures(SOP).</li>
+                </ul> 
+
+
+                <h2>Network Operation Center Engineer                 <span>IHS Towers - March 2015 – January 2020</span></h2>
+                <ul>
+                    <li>Ensured 24x7 99.9% availability of cell by carrying out faulty detection,analysis, troubleshooting, escalation, and resolution of all alarms, and outages or faults.</li>
+                    <li>Remote monitoring and querying of cells using Network Monitoring Systems(NMS) such as MTN ACC, Huawei iManager, OWS and Ecrisson OSS, Nokia Netact and Alcatel-Lucent VNC</li>
+                    <li>I resolved network-related issues, there by achieving a minimal MTTR(downtime)</li>
+                    <li>Assigned fault tickets to respective field teams following an escalation matrix.</li>
+                </ul>
+         
+                
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <!--Feel free to add some references in here, I prefer to add them as available on request-->
+            <dt>References</dt>
+            <dd>Available on request</dd>
+            <dd class="clear"></dd>
+            </dd>
+        </dl>
+
+
+    </div>
+
+</body>
+
+</html>
